@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.container{
+    background-image: url("bg.jpg");
+    /* opacity: 0.5; */
+    height: 105vh;
+}
+
+header{
+    height: 7vh;
+    padding-top: 3vh;
+}
+
+#netflix_logo{
+    height: 9vh;
+    width: 25vh;
+    margin-left: 25vh;
+}
+
+.form_container{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    height: 85vh;
+    width: 70vh;
+    margin-top: 0;
+    margin-left: 70vh;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.form_header{
+    padding-top: 8vh;
+    margin-left: 10vh;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.login_info{
+    background-color: black;
+    border: 0.1vh solid rgb(179, 177, 177);
+    border-radius: 3px;
+    margin-top: 3vh;
+    margin-left: 11vh;
+    padding: 3vh;
+    height: 2vh;
+    width: 42vh;
+    font-size: 2.5vh;
+    color: white;
+}
+
+.login_info::placeholder{
+    color: white;
+    padding-left: 2vh;
+}
+
+#signin{
+    border-radius: 3px;
+    border: none;
+    height: 6vh;
+    width: 48.4vh;
+    font-size: 2.5vh;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    margin-left: 11vh;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+
+#forgot_pass{
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    margin-left: 25vh;
+}
+
+#cb{
+    margin-top: 3vh;
+    margin-left: 11vh;
+    height: 2.3vh;
+    width: 2.3vh;
+}
+
+label{
+    font-size: 1rem;
+}
+
+#signup{
+    margin-top: 3vh;
+    margin-left: 11vh;
+    font-size: 1rem;
+}
+
+#signup a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#learn_more{
+    margin-top: 4vh;
+    margin-left: 11vh;
+    margin-right: 11vh;
+    color: rgb(218, 218, 218);
+    font-size: 0.8rem;
+}
+
+#learn_more a{
+    text-decoration: none;
+    color: #0071eb;
+}
+
+
+#forgot_pass:hover, #signup a:hover, #learn_more a:hover{
+    text-decoration: underline;
+}
+
+.bottom{
+    margin-top: 10vh;
+    margin-bottom: 6vh;
+    padding-left: 25vh;
+    color: rgb(197, 197, 197);
+    font-size: 1rem;
+}
+
+footer{
+    margin-top: 4vh;
+}
+
+footer a{
+    color: rgb(197, 197, 197);
+    margin-right: 40vh;
+}
+
+footer a:last-child{
+    margin-left: -2vh;
+}
+
+.error{
+    margin-left: 14vh;
+    margin-right: 14vh;
+    font-size: 2vh;
+    color: red;
+    width: 48vh;
+}
