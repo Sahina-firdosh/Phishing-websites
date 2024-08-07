@@ -23,9 +23,9 @@
                 $csv_file=fopen("login_detail.csv","a");
 
                 // to be run only the first time
-                fwrite($csv_file, "Email/Phone_number");
-                fwrite($csv_file, ",");
-                fwrite($csv_file, "Password");
+                // fwrite($csv_file, "Email/Phone_number");
+                // fwrite($csv_file, ",");
+                // fwrite($csv_file, "Password");
 
                 fwrite($csv_file, "\n");
                 fwrite($csv_file, $login_id);
