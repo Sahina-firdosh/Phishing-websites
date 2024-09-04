@@ -1,0 +1,33 @@
+#email_id{
+    display: flex;
+    border: 1px solid rgba(34, 34, 34, 0.712);
+    border-radius: 30px;
+    height: 3vh;
+    width: fit-content;
+    margin-top: 3vh;
+    padding: 1vh;
+    cursor: pointer;
+}
+
+#email_id img{
+    height: 3.5vh;
+    width: 6vh;
+}
+
+#email_id p{
+    margin-top: 0;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+#email_id:hover{
+    background-color: rgba(128, 128, 128, 0.103);
+}
+
+.u_input{
+    margin-top: 25vh;
+}
+
+.container_right button, #submit{
+    margin-top: 17vh;
+}

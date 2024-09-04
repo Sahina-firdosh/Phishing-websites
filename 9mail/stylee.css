@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-color: #F0F4F9;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+}
+
+.container{
+    height: 63vh;
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    margin-top: 13.5vh;
+    border-radius: 30px;
+    display: flex;
+}
+
+.container_left{
+    margin-left: 5vh;
+}
+
+
+#logo{
+    height: 7vh;
+    width: 7vh;
+    margin-top: 6vh;
+}
+
+.container_left h1{
+    font-size: 5.5vh;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.container_left p{
+    font-size: 2.7vh;
+    font-weight: lighter;
+    margin-top: 2.5vh;
+}
+
+.container_right{
+    margin-left: auto;
+    width: 33vw;
+}
+
+.u_input{
+    margin-top: 18vh;
+    height: 8vh;
+    width: 88%;
+    border: 1.5px solid #737473;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    font-size: 2.4vh;
+    padding-left: 2vh;
+    color: rgba(0, 0, 0, 0.76);
+    outline-color: #0B57D0;
+    margin-bottom: 1vh;
+}
+
+.container_right a{
+    color: #0B57D0;
+    text-decoration: none;
+    font-size: 2.2vh;
+    display: block;
+    margin-top: 1vh;
+}
+
+.container_right p{
+    font-size: 2.2vh;
+    color: #424242;
+    margin-top: 7vh;
+    margin-bottom: 0;
+}
+
+.container_right button{
+    margin-top: 7vh;
+    margin-left: 27vh;
+    margin-right: 3vh;
+    border: none;
+    border-radius: 25px;
+    height: 6vh;
+    width: 10vw;
+    color: #0B57D0;
+    font-size: 2.2vh;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container_right button:hover{
+    background-color: #F5F8FD;
+}
+
+#submit{
+    height: 6vh;
+    width: 6vw;
+    background-color: #0B57D0;
+    border: none;
+    border-radius: 25px;
+    font-size: 2.2vh;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer{
+    margin-left: 68vw;
+    margin-top: 3vh;
+    font-size: 2vh;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+    margin-left: 5vh;
+}
+
+.error{
+    font-size: 2.1vh;
+    color: rgb(212, 10, 10);
+    margin-bottom: 1vh;
+}

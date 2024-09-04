@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    height: 81vh;
+    width: 32vw;
+    /* background-color: black; */
+    margin: auto;
+    margin-top: 10vh;
+    border: 1.5px solid #e6e6e6;
+    border-radius: 10px;
+    font-family: "pp-open-bold", Helvetica Neue, Arial, sans-serif;
+    font-style: normal;
+}
+
+.container img{
+    height: 5.5vh;
+    width: 5vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.container .u_input{
+    height: 10vh;
+    width: 80%;
+    outline: none;
+    border: 1.5px solid #9198A0;
+    border-radius: 5px;
+    margin-top: 3vh;
+    padding-left: 2vh;
+    font-size: 2.5vh;
+    /* font-weight: bold; */
+
+}
+
+.container .u_input:hover{
+    border: 1.5px solid #93A9E3;
+}
+
+.container .u_input::placeholder{
+    font-family: "pp-open-bold", Helvetica, Arial, sans-serif;
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: #8f9296;
+}
+
+.container .f_pass{
+    color: #0070E0;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: 2.5vh;
+    margin-right: 30vh;
+}
+
+.container .f_pass:hover{
+    color: #9DC0FF;
+}
+
+.container #submit, #signup{
+    background-color: #0544B5;
+    color: white;
+    height: 8vh;
+    width: 82%;
+    border: none;
+    border-radius: 40px;
+    margin-top: 2vh;
+    font-family: "pp-open-bold", Helvetica, Arial, sans-serif;
+    font-size: 2.5vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container #submit:hover{
+    background-color: #0070E0;
+}
+
+.container #signup{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.container #signup:hover{
+    color: #0070E0;
+    border: 1px solid #3B91E7; 
+}
+
+.container p{
+    color: #666869bd;
+    font-weight: bold;
+    /* font-size: 2.3vh; */
+}
+
+footer{
+    height: 6vh;
+    width: 100%;
+    margin-bottom: 0;
+    bottom: 0;
+    background-color: #F7F9FA;
+    position: fixed;
+}
+
+footer a{
+    color: #545D68;
+    text-decoration: none;
+    font-size: 2.1vh;
+    font-weight: bold;
+    margin-right: 1.5vh;
+    margin-bottom: 0;
+    bottom: 0;
+}
+
+.error{
+    color: crimson;
+    font-size: 2.1vh;
+    text-align: left;
+    margin-left: 3vw;
+    margin-top: 0.5vh;
+}

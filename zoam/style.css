@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    font-family: 'Almaden Sans', 'Helvetica', 'Arial' !important;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 0;
+}
+
+nav img{
+    height: 4vh;
+    width: 17vh;
+    margin-left: 8.3vh;
+    margin-top: 3vh;
+}
+
+.nav_right{
+    margin-left: auto;
+    font-size: 2.3vh;
+    display: flex;
+    margin-right: 20vh;
+    margin-top: 1.5vh;
+}
+
+.nav_right p{
+    margin-right: 2vh;
+}
+
+.nav_right a{
+    margin-right: 4vh;
+    margin-top: 2vh;
+    color: #0956B5;
+    text-decoration: none;
+}
+
+.container{
+    margin-top: 0;
+}
+
+.container_left{
+    height: 90vh;
+    width: 38vw;
+    background-color: #F7F9FA;
+    padding-top: 10vh;
+    margin-top: 0;
+    float: left;
+}
+
+.container_left img{
+    height: 43vh;
+    width: 30vw;
+    margin-top: 32vh;
+    margin-left: 4vw;
+}
+
+.container_right{
+    text-align: center;
+    padding-top: 11vh;
+}
+
+.container_right h1{
+    font-size: 5.3vh;
+    letter-spacing: 1.5px;
+}
+
+.u_input{
+    height: 7vh;
+    width: 25vw;
+    border-radius: 10px;
+    border: 1.5px solid #6b6b6b;
+    margin-top: 3vh;
+    padding-left: 2vh;
+    font-size: 2.7vh;
+}
+
+#f_pass{
+    display: block;
+    margin-top: 4vh;
+    margin-bottom: 3.5vh;
+    color: #0956B5;
+    text-decoration: none;
+    font-size: 2.2vh;
+    margin-right: 37vh;
+}
+
+.submit{
+    height: 6.5vh;
+    width: 25vw;
+    background-color: #0E72ED;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 2.7vh;
+    font-weight: bold;
+}
+
+.container_right_bottom{
+    width: 25vw;
+    float: right;
+    /* display: block; */
+    margin-right: 38vh;
+    font-size: 2.3vh;
+    color: #5e5e5e;
+    text-align:left;
+
+}
+
+#cb{
+    color: black;
+    font-size: 2.1vh;
+    margin-bottom: 4vh;
+}
+
+.container_right_bottom a{
+    color: #0956B5;
+    font-weight: bold;
+    font-size: 2vh;
+    text-decoration: none;
+}
+
+.php_error{
+    color: rgb(170, 9, 9);
+    font-size: 2.3vh;
+    margin-top: 0;
+    margin-right: 19vh;
+}
